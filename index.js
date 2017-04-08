@@ -1,9 +1,13 @@
 'use strict';
 
-let bubbleSort = require('./bubble-sort');
+let bubbleSort = require('./sorting/bubble-sort');
+let fillWithTiles = require('./entry_test/fillWithTiles');
+let UnionFind = require('./unionFind');
 
 let algolib = {
-    bubbleSort
+    bubbleSort,
+    fillWithTiles,
+    UnionFind
 }
 
 module.exports = algolib;
