@@ -17,7 +17,7 @@ describe('#unionFind', function() {
 
   })
 
-  it('suold #isConnected return false if not connected', function() {
+  it('should #isConnected return false if not connected', function() {
     let uf = new algolib.UnionFind();
 
     let isElementConnected = uf.isConnected(3,4);
