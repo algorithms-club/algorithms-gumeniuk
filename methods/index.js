@@ -5,6 +5,7 @@ let insertionSort = require('./Insertion-sort/insertion-sort');
 let shellSort = require('./Shell-sort/shell-sort');
 let mergeSort = require('./Merge-sort/merge-sort');
 let quickSort = require('./Quick-sort/quick-sort');
+let heapSort = require('./Heap-sort/heap-sort');
 let fillWithTiles = require('./FillWithTiles/fillWithTiles');
 let UnionFind = require('./UnionFind/unionFind');
 let waterMelon = require('./WaterMelon/waterMelon')
@@ -18,6 +19,7 @@ let algolib = {
 	shellSort,
 	mergeSort,
 	quickSort,
+	heapSort,
     fillWithTiles,
     UnionFind,
 	waterMelon,
